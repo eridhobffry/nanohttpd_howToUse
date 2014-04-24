@@ -1,5 +1,3 @@
-## What is "nanohttpd"?
-
 *NanoHttpd* is a light-weight HTTP server designed for embedding in other applications.
 
 *NanoHttpd* has been released under a Modified BSD licence.
