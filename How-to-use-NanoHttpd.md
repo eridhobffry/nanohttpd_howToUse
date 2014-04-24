@@ -1,5 +1,3 @@
-## How do I use nanohttpd?
-
 Firstly take a look at the "samples" sub-module.  The sample code illustrates using NanoHttpd in various ways.
 
 Secondly, you can run the standalone *NanoHttpd Webserver*.
