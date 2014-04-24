@@ -1,5 +1,3 @@
-## Why fork the original repo?
-
 The Java 6 version of *nanohttpd* was born when we realized that embedding Jetty inside our
 Android application was going to inflate the size without bringing along features that we
 were going to need.  The search for a smaller more streamlined HTTP server lead us
