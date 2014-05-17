@@ -18,7 +18,7 @@
 * Doesn't limit bandwidth, request time or simultaneous connections.
 * All header names are converted lowercase so they don't vary between browsers/clients.
 * Very low memory overhead when processing even the largest of requests.
-* Temp file usage and threading model are easily cutomized.
+* Temp file usage and threading model are easily customized.
 * Persistent connections (Connection "keep-alive") support allowing multiple requests to be served over a single socket connection.
 
 ## Websocket Support
