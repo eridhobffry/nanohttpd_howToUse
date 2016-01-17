@@ -59,7 +59,7 @@ public class DebugServer extends NanoHTTPD {
 
         sb.append("</body>");
         sb.append("</html>");
-        return newFixedLengthResponse(sb.toString());
+        return new FixedLengthResponse(sb.toString());
     }
 
     private String toString(Map<String, ? extends Object> map) {
