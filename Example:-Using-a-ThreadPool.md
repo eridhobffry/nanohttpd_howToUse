@@ -83,8 +83,8 @@ public class App extends NanoHTTPD {
             App app = new App(port);
             app.setAsyncRunner(new BoundRunner(Executors.newFixedThreadPool(webThreads)));
             app.start(NanoHTTPD.SOCKET_READ_TIMEOUT, false);
-            logger.info("waiting for connections on port " + port + " using a maximum of " + gzipThreads +
-                    " gzip threads and " + webThreads + " web threads");
+            logger.info("waiting for connections on port " + port + " using a maximum of " +
+                webThreads + " web threads");
 
         } catch (Throwable t) {
             logger.log(Level.SEVERE, "Couldn't start server", t);
