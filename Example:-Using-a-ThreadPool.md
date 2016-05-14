@@ -1,6 +1,5 @@
 You have this amazingly tiny web server that works perfectly! But wait, what happens when it gets a million simultaneous requests? Do you want to spin up a million threads? No. You want a thread pool. Something like this:
 ```java
-package com.switchboard.tools;
 
 import fi.iki.elonen.NanoHTTPD;
 
