@@ -59,8 +59,7 @@ import java.util.concurrent.Executors;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/** App is a simple little web server devoted to running NormalizeCSV.normalize with some constraints on the
- *  number of threads */
+/** App is a simple little web server with some constraints on the number of threads. */
 public class App extends NanoHTTPD {
 
     private static final Logger logger = Logger.getLogger(App.class.getName());
